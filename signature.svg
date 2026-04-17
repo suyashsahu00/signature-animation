@@ -1,25 +1,26 @@
-<svg width="600" height="150" viewBox="0 0 600 150" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="160" viewBox="0 0 600 160" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&amp;display=swap');
 
       .sig {
-        font-family: 'Great Vibes', cursive;
-        font-size: 90px;
+        font-family: 'Corinthia', cursive;
+        font-size: 110px;
+        font-weight: 700;
         fill: #b45309;
         stroke: none;
-        animation: typewrite 6s ease-in-out infinite;
+        animation: typewrite 4s ease-in-out infinite;
       }
 
       @keyframes typewrite {
         0%   { clip-path: inset(0 100% 0 0); opacity: 1; }
-        50%  { clip-path: inset(0 0%   0 0); opacity: 1; }
-        80%  { clip-path: inset(0 0%   0 0); opacity: 1; }
-        95%  { clip-path: inset(0 100% 0 0); opacity: 1; }
+        45%  { clip-path: inset(0 0%   0 0); opacity: 1; }
+        75%  { clip-path: inset(0 0%   0 0); opacity: 1; }
+        92%  { clip-path: inset(0 100% 0 0); opacity: 1; }
         100% { clip-path: inset(0 100% 0 0); opacity: 1; }
       }
     </style>
   </defs>
 
-  <text class="sig" x="20" y="115">Suyash Sahu</text>
+  <text class="sig" x="10" y="130">Suyash Sahu</text>
 </svg>
