@@ -1,13 +1,13 @@
-<svg width="600" height="160" viewBox="0 0 600 160" xmlns="http://www.w3.org/2000/svg">
+<svg width="420" height="110" viewBox="0 0 420 110" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap');
 
       .sig {
-        font-family: 'Corinthia', cursive;
-        font-size: 110px;
-        font-weight: 700;
-        fill: #b45309;
+        font-family: 'Great Vibes', cursive;
+        font-size: 72px;
+        font-weight: 400;
+        fill: #c0392b;
         stroke: none;
         animation: typewrite 4s ease-in-out infinite;
       }
@@ -22,5 +22,5 @@
     </style>
   </defs>
 
-  <text class="sig" x="10" y="130">Suyash Sahu</text>
+  <text class="sig" x="10" y="85">Suyash Sahu</text>
 </svg>
