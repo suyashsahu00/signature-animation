@@ -13,14 +13,14 @@
         stroke-linejoin: round;
         stroke-dasharray: 3000;
         stroke-dashoffset: 3000;
-        animation: swipeOut 6s ease-in-out infinite;
+        animation: swipeOut 9s ease-in-out infinite;
       }
 
       @keyframes swipeOut {
         0%   { stroke-dashoffset: 3000; fill: none;    opacity: 1; }
-        45%  { stroke-dashoffset: 0;    fill: none;    opacity: 1; }
-        70%  { stroke-dashoffset: 0;    fill: #f97316; opacity: 1; }
-        88%  { stroke-dashoffset: 0;    fill: #f97316; opacity: 0; }
+        35%  { stroke-dashoffset: 0;    fill: none;    opacity: 1; }
+        80%  { stroke-dashoffset: 0;    fill: #f97316; opacity: 1; }
+        93%  { stroke-dashoffset: 0;    fill: #f97316; opacity: 0; }
         100% { stroke-dashoffset: 3000; fill: none;    opacity: 0; }
       }
     </style>
