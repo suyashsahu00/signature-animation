@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Suyash Sahu - Font Preview</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Great+Vibes&family=Permanent+Marker&family=Creepster&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #0d1117; color: #fff; font-family: monospace; padding: 40px 20px; }
+    h1 { text-align: center; color: #58a6ff; margin-bottom: 10px; font-size: 18px; letter-spacing: 2px; }
+    p.sub { text-align: center; color: #666; font-size: 12px; margin-bottom: 50px; }
+
+    .card { background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 30px 30px 20px; margin-bottom: 30px; }
+    .label { font-size: 11px; color: #8b949e; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 1px; }
+    .sig { display: block; white-space: nowrap; }
+
+    /* Flood fill + swipe out animation */
+    @keyframes flood {
+      0%   { -webkit-text-stroke-color: currentColor; color: transparent; opacity: 1; clip-path: inset(0 100% 0 0); }
+      40%  { -webkit-text-stroke-color: currentColor; color: transparent; opacity: 1; clip-path: inset(0 0% 0 0); }
+      65%  { -webkit-text-stroke-color: currentColor; color: currentColor;  opacity: 1; clip-path: inset(0 0% 0 0); }
+      85%  { -webkit-text-stroke-color: currentColor; color: currentColor;  opacity: 0; clip-path: inset(0 0% 0 0); }
+      100% { -webkit-text-stroke-color: currentColor; color: transparent; opacity: 0; clip-path: inset(0 100% 0 0); }
+    }
+
+    .f1 { font-family: 'Orbitron', sans-serif;      font-size: 42px; color: #58a6ff; -webkit-text-stroke: 1px #58a6ff; animation: flood 5s ease-in-out infinite; }
+    .f2 { font-family: 'Great Vibes', cursive;      font-size: 72px; color: #f97316; -webkit-text-stroke: 1px #f97316; animation: flood 5s ease-in-out infinite; }
+    .f3 { font-family: 'Permanent Marker', cursive; font-size: 52px; color: #39d353; -webkit-text-stroke: 1px #39d353; animation: flood 5s ease-in-out infinite; }
+    .f4 { font-family: 'Creepster', cursive;        font-size: 65px; color: #e879f9; -webkit-text-stroke: 1px #e879f9; animation: flood 5s ease-in-out infinite; }
+    .f5 { font-family: 'Dancing Script', cursive;  font-size: 68px; color: #facc15; -webkit-text-stroke: 1px #facc15; animation: flood 5s ease-in-out infinite; }
+  </style>
+</head>
+<body>
+  <h1>FONT PREVIEW — Suyash Sahu</h1>
+  <p class="sub">Fill flood + swipe out animation on loop</p>
+
+  <div class="card">
+    <div class="label">1. Orbitron — Futuristic / Techy (Blue)</div>
+    <span class="sig f1">Suyash Sahu</span>
+  </div>
+
+  <div class="card">
+    <div class="label">2. Great Vibes — Elegant Cursive (Orange)</div>
+    <span class="sig f2">Suyash Sahu</span>
+  </div>
+
+  <div class="card">
+    <div class="label">3. Permanent Marker — Raw Handwriting (Green)</div>
+    <span class="sig f3">Suyash Sahu</span>
+  </div>
+
+  <div class="card">
+    <div class="label">4. Creepster — Spooky / Dark (Purple)</div>
+    <span class="sig f4">Suyash Sahu</span>
+  </div>
+
+  <div class="card">
+    <div class="label">5. Dancing Script — Classic Handwritten (Gold)</div>
+    <span class="sig f5">Suyash Sahu</span>
+  </div>
+</body>
+</html>
