@@ -6,16 +6,17 @@
       .sig {
         font-family: 'Great Vibes', cursive;
         font-size: 90px;
-        fill: #c2410c;
+        fill: #b45309;
         stroke: none;
-        animation: fadeLoop 6s ease-in-out infinite;
+        animation: typewrite 6s ease-in-out infinite;
       }
 
-      @keyframes fadeLoop {
-        0%   { opacity: 0; }
-        20%  { opacity: 1; }
-        75%  { opacity: 1; }
-        100% { opacity: 0; }
+      @keyframes typewrite {
+        0%   { clip-path: inset(0 100% 0 0); opacity: 1; }
+        50%  { clip-path: inset(0 0%   0 0); opacity: 1; }
+        80%  { clip-path: inset(0 0%   0 0); opacity: 1; }
+        95%  { clip-path: inset(0 100% 0 0); opacity: 1; }
+        100% { clip-path: inset(0 100% 0 0); opacity: 1; }
       }
     </style>
   </defs>
