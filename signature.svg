@@ -7,21 +7,24 @@
         font-family: 'Great Vibes', cursive;
         font-size: 90px;
         fill: none;
-        stroke: #f97316;
+        stroke: #c2410c;
         stroke-width: 1.5;
         stroke-linecap: round;
         stroke-linejoin: round;
         stroke-dasharray: 3000;
         stroke-dashoffset: 3000;
-        animation: swipeOut 9s ease-in-out infinite;
+        animation: swipeOut 10s linear infinite;
       }
 
       @keyframes swipeOut {
-        0%   { stroke-dashoffset: 3000; fill: none;    opacity: 1; }
-        35%  { stroke-dashoffset: 0;    fill: none;    opacity: 1; }
-        80%  { stroke-dashoffset: 0;    fill: #f97316; opacity: 1; }
-        93%  { stroke-dashoffset: 0;    fill: #f97316; opacity: 0; }
-        100% { stroke-dashoffset: 3000; fill: none;    opacity: 0; }
+        0%   { stroke-dashoffset: 3000; fill: transparent;        opacity: 1; }
+        30%  { stroke-dashoffset: 0;    fill: transparent;        opacity: 1; }
+        40%  { stroke-dashoffset: 0;    fill: rgba(194,65,12,0.1); opacity: 1; }
+        55%  { stroke-dashoffset: 0;    fill: rgba(194,65,12,0.4); opacity: 1; }
+        70%  { stroke-dashoffset: 0;    fill: rgba(194,65,12,0.7); opacity: 1; }
+        82%  { stroke-dashoffset: 0;    fill: rgba(194,65,12,1.0); opacity: 1; }
+        93%  { stroke-dashoffset: 0;    fill: rgba(194,65,12,1.0); opacity: 0; }
+        100% { stroke-dashoffset: 3000; fill: transparent;        opacity: 0; }
       }
     </style>
   </defs>
